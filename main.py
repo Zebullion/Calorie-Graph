@@ -73,6 +73,8 @@ def mergeSort(values):
   return sortedValues
   print(sortedValues)
 
+
+
 def mGraph():
   
   temp = []
@@ -95,12 +97,6 @@ def mGraph():
 
 
   graph.add('calories', temp)
-    
-  
-  
-
-  
-
   graph.render_to_file('fod.svg')
 
  
